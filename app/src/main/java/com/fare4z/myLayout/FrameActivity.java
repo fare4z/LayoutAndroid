@@ -1,4 +1,4 @@
-package com.example.myapplication;
+package com.fare4z.myLayout;
 
 import androidx.appcompat.app.AppCompatActivity;
 
