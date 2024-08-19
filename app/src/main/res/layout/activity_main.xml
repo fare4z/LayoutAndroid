@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Layout Tutorial"
+        android:textAlignment="center"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/btnFrameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Frame Layout" />
+
+    <Button
+        android:id="@+id/btnLinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Linear Layout" />
+
+    <Button
+        android:id="@+id/btnTableLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Table Layout" />
+
+    <Button
+        android:id="@+id/btnRelativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Relative Layout" />
+
+    <Button
+        android:id="@+id/btnGridLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Grid Layout" />
+
+    <Button
+        android:id="@+id/btnConstraintLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Constraint Layout"/>
+</LinearLayout>
