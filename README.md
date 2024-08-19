@@ -1,17 +1,10 @@
 # LayoutClassActivity
 
 
-<<<<<<< HEAD
 <img src="Screenshot_20240819_141306.png" alt="alt text for screen readers" title="Apps Interface" style="width:30%;">
 
 
 This repository serves as a continuation of the lab activity for DDT on 19-20/08/2024 , providing an example for students to understand Android layout using Java language. It covers various layout types including Linear Layout, Frame Layout, Grid Layout, Table Layout, and Constraint Layout.
-=======
-<img src="Screenshot_20240229_210001.png" alt="alt text for screen readers" title="Apps Interface" style="width:30%;">
-
-
-This repository serves as a continuation of the lab activity for DDT 5B and DDT5C on 29/2/2024, providing an example for students to understand Android layout using Java language. It covers various layout types including Linear Layout, Frame Layout, Grid Layout, Table Layout, and Constraint Layout.
->>>>>>> 7c682ecada735f443a464d824a1f268d2ce1c3e6
 
 ## Layout Types Covered:
 
@@ -25,11 +18,7 @@ This repository serves as a continuation of the lab activity for DDT 5B and DDT5
 
 1. Clone the repository:
    ```bash
-<<<<<<< HEAD
    git clone https://github.com/fare4z/LayoutAndroid.git
-=======
-   git clone https://github.com/fare4z/LayoutClassActivity.git
->>>>>>> 7c682ecada735f443a464d824a1f268d2ce1c3e6
 2. Open the project in Android Studio.
 3. Navigate to the desired example to understand the several type of layout.
 4. Run the examples on an Android emulator or device.
