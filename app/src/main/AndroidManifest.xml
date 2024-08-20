@@ -9,6 +9,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication">
         <activity
+            android:name=".GridActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LinearActivity"
+            android:exported="false" />
+        <activity
             android:name=".FrameActivity"
             android:exported="false" />
         <activity

@@ -9,7 +9,7 @@ import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
 
-    Button btnFrameLayout;
+    Button btnFrameLayout , btnLinearLayout ,btnGridLayout;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -17,11 +17,29 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         btnFrameLayout = findViewById(R.id.btnFrameLayout);
+        btnLinearLayout = findViewById(R.id.btnLinearLayout);
+        btnGridLayout = findViewById(R.id.btnGridLayout);
 
         btnFrameLayout.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent i = new Intent(getApplicationContext(), FrameActivity.class);
+                startActivity(i);
+            }
+        });
+
+        btnLinearLayout.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(getApplicationContext(), LinearActivity.class);
+                startActivity(i);
+            }
+        });
+
+        btnGridLayout.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(getApplicationContext(), GridActivity.class);
                 startActivity(i);
             }
         });
