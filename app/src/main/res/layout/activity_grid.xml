@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@drawable/bg_blue"
     tools:context=".GridActivity">
 
     <TextView
@@ -23,6 +24,7 @@
         >
 
         <androidx.cardview.widget.CardView
+            android:id="@+id/cvMalaysia"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             app:cardCornerRadius="8dp"
@@ -35,25 +37,37 @@
             app:layout_rowWeight="1">
 
             <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:gravity="center"
                 android:orientation="vertical">
 
-                <TextView
-                    android:id="@+id/tvvote1"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="TextView" />
-
                 <ImageView
-                    android:id="@+id/ivvote1"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/malaysia_flag" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="MALAYSIA"
+                    android:textAlignment="center"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tvOutputMalaysia"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    tools:srcCompat="@tools:sample/avatars" />
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    tools:text="Count" />
             </LinearLayout>
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
+            android:id="@+id/cvPenang"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             app:cardCornerRadius="8dp"
@@ -66,56 +80,81 @@
             app:layout_rowWeight="1">
 
             <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:gravity="center"
                 android:orientation="vertical">
 
-                <TextView
-                    android:id="@+id/tvvote2"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="TextView" />
-
                 <ImageView
-                    android:id="@+id/ivvote2"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/penang" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="PENANG"
+                    android:textAlignment="center"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tvOutputPenang"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    tools:srcCompat="@tools:sample/avatars" />
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    tools:text="Count" />
+
             </LinearLayout>
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
+            android:id="@+id/cvKelantan"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            app:cardCornerRadius="8dp"
-            app:cardElevation="8dp"
-            app:cardUseCompatPadding="true"
+            app:layout_row="1"
+            app:layout_rowWeight="1"
             app:layout_column="0"
             app:layout_columnWeight="1"
             app:layout_gravity="fill"
-            app:layout_row="1"
-            app:layout_rowWeight="1">
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp"
+            app:cardUseCompatPadding="true">
 
             <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:gravity="center"
                 android:orientation="vertical">
 
-                <TextView
-                    android:id="@+id/tvvote3"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="TextView" />
-
                 <ImageView
-                    android:id="@+id/ivvote3"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/kelantan" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="KELANTAN"
+                    android:textAlignment="center"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tvOutputKelantan"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    tools:srcCompat="@tools:sample/avatars" />
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    tools:text="Count" />
             </LinearLayout>
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
+            android:id="@+id/cvKedah"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             app:cardCornerRadius="8dp"
@@ -128,21 +167,33 @@
             app:layout_rowWeight="1">
 
             <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:gravity="center"
                 android:orientation="vertical">
 
-                <TextView
-                    android:id="@+id/textView9"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="TextView" />
-
                 <ImageView
-                    android:id="@+id/imageView3"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/kedah" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="KEDAH"
+                    android:textAlignment="center"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tvOutputKedah"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    tools:srcCompat="@tools:sample/avatars" />
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    tools:text="Count" />
+
             </LinearLayout>
         </androidx.cardview.widget.CardView>
 
