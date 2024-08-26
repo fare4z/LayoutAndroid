@@ -59,6 +59,18 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Constraint Layout" />
+
+        <Button
+            android:id="@+id/btnWebView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Web View Layout" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/kelas" />
     </LinearLayout>
 
 </LinearLayout>
