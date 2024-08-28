@@ -8,15 +8,15 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.MyApplication"
+        android:theme="@style/Theme.MyApplication">
 
-        >
         <activity
             android:name=".WebviewActivity"
             android:exported="false" />
         <activity
             android:name=".GridActivity"
-            android:exported="false" />
+            android:exported="false"
+            />
         <activity
             android:name=".LinearActivity"
             android:exported="false" />

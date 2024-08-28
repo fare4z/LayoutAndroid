@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/actionHome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:icon="@drawable/iconhome"
+        android:title="Home"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/actionFrame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="Frame Layout" />
+    <item
+        android:id="@+id/actionLinear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="Linear Layout" />
+    <item
+        android:id="@+id/actionGrid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="Grid Layout" />
+    <item
+        android:id="@+id/actionWebView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="Web View Layout" />
+</menu>
